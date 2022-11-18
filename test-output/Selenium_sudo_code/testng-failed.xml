@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Selenium_sudo_code]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="BankingApp Test(failed)">
-    <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="POM.Listener"/>
+  </listeners>
+  <test thread-count="5" name="POM practice Test(failed)">
     <classes>
-      <class name="POM.GmailLoginTest">
+      <class name="POM.LoginTest">
         <methods>
-          <include name="init"/>
-          <include name="TeardownTest"/>
           <include name="initialize"/>
+          <include name="testValidText"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- POM.GmailLoginTest -->
+      </class> <!-- POM.LoginTest -->
     </classes>
-  </test> <!-- BankingApp Test(failed) -->
+  </test> <!-- POM practice Test(failed) -->
 </suite> <!-- Failed suite [Selenium_sudo_code] -->

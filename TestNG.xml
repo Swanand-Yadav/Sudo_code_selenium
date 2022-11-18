@@ -3,6 +3,9 @@
 
 <suite name="Selenium_sudo_code">
 
+	<listeners>
+		<listener class-name="POM.Listener"/>
+	</listeners>
 	<test name="POM practice Test">
 		<classes>
 			<class name="POM.LoginTest"/>             

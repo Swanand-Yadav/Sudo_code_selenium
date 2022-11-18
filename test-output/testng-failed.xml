@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Selenium_sudo_code]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="POM.Listener"/>
+  </listeners>
+  <test thread-count="5" name="POM practice Test(failed)">
     <classes>
-      <class name="Hard_assert">
+      <class name="POM.LoginTest">
         <methods>
-          <include name="Test1"/>
+          <include name="initialize"/>
+          <include name="testValidText"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- Hard_assert -->
+      </class> <!-- POM.LoginTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- POM practice Test(failed) -->
+</suite> <!-- Failed suite [Selenium_sudo_code] -->

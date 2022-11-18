@@ -25,6 +25,8 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
+// Without listener we can make report like this
+
 public class Extent_report 
 {
 	ExtentSparkReporter reporter;
