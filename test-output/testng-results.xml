@@ -1,78 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-20T11:06:29 IST" name="Default suite" finished-at="2022-11-20T11:06:46 IST" duration-ms="17080">
+  <suite started-at="2022-11-23T13:35:03 IST" name="Default suite" finished-at="2022-11-23T13:35:11 IST" duration-ms="8736">
     <groups>
     </groups>
-    <test started-at="2022-11-20T11:06:29 IST" name="Default test" finished-at="2022-11-20T11:06:46 IST" duration-ms="17080">
-      <class name="Sudo.Extent_report">
-        <test-method is-config="true" signature="config()[pri:0, instance:Sudo.Extent_report@51e69659]" started-at="2022-11-20T11:06:29 IST" name="config" finished-at="2022-11-20T11:06:29 IST" duration-ms="367" status="PASS">
+    <test started-at="2022-11-23T13:35:03 IST" name="Default test" finished-at="2022-11-23T13:35:11 IST" duration-ms="8736">
+      <class name="Sudo.CheckBox">
+        <test-method signature="isSelected()[pri:0, instance:Sudo.CheckBox@3f6b0be5]" started-at="2022-11-23T13:35:03 IST" name="isSelected" finished-at="2022-11-23T13:35:11 IST" duration-ms="8683" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- config -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Sudo.Extent_report@51e69659]" started-at="2022-11-20T11:06:29 IST" name="Setup" finished-at="2022-11-20T11:06:36 IST" duration-ms="6131" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="LoginTest()[pri:0, instance:Sudo.Extent_report@51e69659]" started-at="2022-11-20T11:06:36 IST" name="LoginTest" finished-at="2022-11-20T11:06:36 IST" duration-ms="28" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Sudo.Extent_report@51e69659]" started-at="2022-11-20T11:06:36 IST" name="tearDown" finished-at="2022-11-20T11:06:36 IST" duration-ms="212" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=Extent_report.LoginTest()[pri:0, instance:Sudo.Extent_report@51e69659] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Sudo.Extent_report@51e69659]" started-at="2022-11-20T11:06:36 IST" name="Setup" finished-at="2022-11-20T11:06:40 IST" duration-ms="4542" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="LogoTest()[pri:0, instance:Sudo.Extent_report@51e69659]" started-at="2022-11-20T11:06:40 IST" name="LogoTest" finished-at="2022-11-20T11:06:40 IST" duration-ms="93" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LogoTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Sudo.Extent_report@51e69659]" started-at="2022-11-20T11:06:40 IST" name="tearDown" finished-at="2022-11-20T11:06:41 IST" duration-ms="392" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=LogoTest status=SUCCESS method=Extent_report.LogoTest()[pri:0, instance:Sudo.Extent_report@51e69659] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:Sudo.Extent_report@51e69659]" started-at="2022-11-20T11:06:41 IST" name="Setup" finished-at="2022-11-20T11:06:45 IST" duration-ms="4310" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="TitleTest()[pri:0, instance:Sudo.Extent_report@51e69659]" started-at="2022-11-20T11:06:45 IST" name="TitleTest" finished-at="2022-11-20T11:06:45 IST" duration-ms="14" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TitleTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Sudo.Extent_report@51e69659]" started-at="2022-11-20T11:06:45 IST" name="tearDown" finished-at="2022-11-20T11:06:46 IST" duration-ms="426" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TitleTest status=SUCCESS method=Extent_report.TitleTest()[pri:0, instance:Sudo.Extent_report@51e69659] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:Sudo.Extent_report@51e69659]" started-at="2022-11-20T11:06:46 IST" name="endReport" finished-at="2022-11-20T11:06:46 IST" duration-ms="497" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endReport -->
-      </class> <!-- Sudo.Extent_report -->
+        </test-method> <!-- isSelected -->
+      </class> <!-- Sudo.CheckBox -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
