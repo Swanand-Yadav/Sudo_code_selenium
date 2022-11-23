@@ -22,12 +22,10 @@ public class Auto_suggesions
 
 	    for(int i = 1 ;i< list.size();i++)
 	    {
-	        System.out.println(list.get(i).getText());
-
 	        if(list.get(i).getText().equals("India"))
 	        {
-	            list.get(i).click();
 	            System.out.println(list.get(i).getText());
+	            list.get(i).click();
 	            break;
 	        }  
 	    }
