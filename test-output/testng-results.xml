@@ -1,17 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-23T13:35:03 IST" name="Default suite" finished-at="2022-11-23T13:35:11 IST" duration-ms="8736">
+  <suite started-at="2022-12-21T15:00:51 IST" name="Default suite" finished-at="2022-12-21T15:00:52 IST" duration-ms="89">
     <groups>
     </groups>
-    <test started-at="2022-11-23T13:35:03 IST" name="Default test" finished-at="2022-11-23T13:35:11 IST" duration-ms="8736">
-      <class name="Sudo.CheckBox">
-        <test-method signature="isSelected()[pri:0, instance:Sudo.CheckBox@3f6b0be5]" started-at="2022-11-23T13:35:03 IST" name="isSelected" finished-at="2022-11-23T13:35:11 IST" duration-ms="8683" status="PASS">
+    <test started-at="2022-12-21T15:00:51 IST" name="Default test" finished-at="2022-12-21T15:00:52 IST" duration-ms="89">
+      <class name="DataProvider_Class.EmpData">
+        <test-method signature="testCaseData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DataProvider_Class.EmpData@35aea049]" started-at="2022-12-21T15:00:52 IST" name="testCaseData" data-provider="getData" finished-at="2022-12-21T15:00:52 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[text]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- isSelected -->
-      </class> <!-- Sudo.CheckBox -->
+        </test-method> <!-- testCaseData -->
+        <test-method signature="testCaseData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DataProvider_Class.EmpData@35aea049]" started-at="2022-12-21T15:00:52 IST" name="testCaseData" data-provider="getData" finished-at="2022-12-21T15:00:52 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bye]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Message]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseData -->
+        <test-method signature="testCaseData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DataProvider_Class.EmpData@35aea049]" started-at="2022-12-21T15:00:52 IST" name="testCaseData" data-provider="getData" finished-at="2022-12-21T15:00:52 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[solo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[call]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseData -->
+      </class> <!-- DataProvider_Class.EmpData -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

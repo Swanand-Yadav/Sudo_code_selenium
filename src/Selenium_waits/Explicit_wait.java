@@ -46,7 +46,7 @@ public class Explicit_wait
 		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(3));// This is element specific wait not a global
 		
 		driver.findElement(By.cssSelector("input.gLFyf")).sendKeys("selenium",Keys.ENTER);
-		WebElement element=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h3[text()='Selenium']")));// It will rrturn boolean either element is able to locate or not 
+		WebElement element=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h3[text()='Selenium']")));// It will return boolean either element is able to locate or not 
 		element.click();
 		
 	}
