@@ -12,3 +12,7 @@ public class EmpData // extends DPClass OR use dataProviderClass=DPClass.class i
 		System.out.println(Greeting+Communication+Id);
 	}
 }
+
+/* In above we can use dataProvider using extends class DPClass also if not then use parameter 
+ * dataProviderClass=DPClass.class in @Test annotation or without parameter with extending class.
+ */
