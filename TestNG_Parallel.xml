@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="methods" thread-count="2"> 
+	<test name="Test1" >
+		<classes>
+			<class name="TestNG_parallel.class1"/> 
+			<class name="TestNG_parallel.class2"/>
+			<class name="TestNG_parallel.class3"/>      
+		</classes>
+	</test>
+	
+	<test name="Test2" >
+		<classes> 
+			<class name="TestNG_parallel.class4"/>      
+		</classes>
+	</test>	
+</suite>
+
+<!-- 
+	thread-count: It means we can allow up-to specific number of thread should execute in parallel
+				  execution. If our thread-count is 1 then this execution becomes under sequential 
+				  execution not parallel because they are using same thread utilization. And if we 
+				  are not using hole thread-count parameter then by-default it takes as parallel
+				  execution if we mentioned only parallel. And if we mention greater than 1 & 
+				  positive number thread-count it means it going to execute in parallel mode.
+				  
+	We can use parallel execution only in suite or test level in XML file only not class level
+	
+	<suite name="Test" parallel="tests" thread-count="2"> 
+		 Above line saying that it can run tests parallel it means it will consider only tests not
+		 any specifically classes or methods or any... In above code there are two tests and allowing 
+		 with 2 thread-count so one tests will take one thread id another will take second thread id 
+		 because we are take at suit level so it focus only on tests(parallel value maybe different 
+		 i.e. tests,methods or classes). If we take it at tests level  then it will focus only 
+		 classes(parallel value maybe different i.e. tests,methods or classes).
+		 
+		 <suite name="Test" parallel="tests" thread-count="2"> -> all tests from suite
+		 <suite name="Test" parallel="classes" thread-count="2"> -> all classes from suite
+		 
+		 <test name="Test1" parallel="classes" thread-count="2"> -> all classes from test
+		 <test name="Test1" parallel="methods" thread-count="2"> -> all methods from test
+		 
+		 Important: If you are executing at suite level and parallel value having classes
+		 			and thread-count=2 then total_thread =(number of test*thread-count) not a how many
+		 			thread-count is displaying. In that scenario tests are executing sequentially but
+		 			inside thread are executing parallel
+ -->

@@ -1,76 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-21T15:00:51 IST" name="Default suite" finished-at="2022-12-21T15:00:52 IST" duration-ms="89">
+  <suite started-at="2022-12-22T23:34:29 IST" name="Suite" finished-at="2022-12-22T23:34:30 IST" duration-ms="192">
     <groups>
     </groups>
-    <test started-at="2022-12-21T15:00:51 IST" name="Default test" finished-at="2022-12-21T15:00:52 IST" duration-ms="89">
-      <class name="DataProvider_Class.EmpData">
-        <test-method signature="testCaseData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DataProvider_Class.EmpData@35aea049]" started-at="2022-12-21T15:00:52 IST" name="testCaseData" data-provider="getData" finished-at="2022-12-21T15:00:52 IST" duration-ms="9" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Hello]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[text]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2022-12-22T23:34:29 IST" name="Test1" finished-at="2022-12-22T23:34:30 IST" duration-ms="92">
+      <class name="TestNG_parallel.class3">
+        <test-method signature="test_method6()[pri:0, instance:TestNG_parallel.class3@d5b810e]" started-at="2022-12-22T23:34:30 IST" name="test_method6" finished-at="2022-12-22T23:34:30 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCaseData -->
-        <test-method signature="testCaseData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DataProvider_Class.EmpData@35aea049]" started-at="2022-12-21T15:00:52 IST" name="testCaseData" data-provider="getData" finished-at="2022-12-21T15:00:52 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[bye]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Message]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[32]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- test_method6 -->
+        <test-method signature="test_method7()[pri:0, instance:TestNG_parallel.class3@d5b810e]" started-at="2022-12-22T23:34:30 IST" name="test_method7" finished-at="2022-12-22T23:34:30 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCaseData -->
-        <test-method signature="testCaseData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DataProvider_Class.EmpData@35aea049]" started-at="2022-12-21T15:00:52 IST" name="testCaseData" data-provider="getData" finished-at="2022-12-21T15:00:52 IST" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[solo]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[call]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[678]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- test_method7 -->
+        <test-method signature="test_method8()[pri:0, instance:TestNG_parallel.class3@d5b810e]" started-at="2022-12-22T23:34:30 IST" name="test_method8" finished-at="2022-12-22T23:34:30 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCaseData -->
-      </class> <!-- DataProvider_Class.EmpData -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- test_method8 -->
+      </class> <!-- TestNG_parallel.class3 -->
+      <class name="TestNG_parallel.class1">
+        <test-method signature="test_method2()[pri:0, instance:TestNG_parallel.class1@2f217633]" started-at="2022-12-22T23:34:30 IST" name="test_method2" finished-at="2022-12-22T23:34:30 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_method2 -->
+        <test-method signature="test_method1()[pri:0, instance:TestNG_parallel.class1@2f217633]" started-at="2022-12-22T23:34:30 IST" name="test_method1" finished-at="2022-12-22T23:34:30 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_method1 -->
+      </class> <!-- TestNG_parallel.class1 -->
+      <class name="TestNG_parallel.class2">
+        <test-method signature="test_method3()[pri:0, instance:TestNG_parallel.class2@1b2abca6]" started-at="2022-12-22T23:34:30 IST" name="test_method3" finished-at="2022-12-22T23:34:30 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_method3 -->
+        <test-method signature="test_method4()[pri:0, instance:TestNG_parallel.class2@1b2abca6]" started-at="2022-12-22T23:34:30 IST" name="test_method4" finished-at="2022-12-22T23:34:30 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_method4 -->
+        <test-method signature="test_method5()[pri:0, instance:TestNG_parallel.class2@1b2abca6]" started-at="2022-12-22T23:34:30 IST" name="test_method5" finished-at="2022-12-22T23:34:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_method5 -->
+      </class> <!-- TestNG_parallel.class2 -->
+    </test> <!-- Test1 -->
+    <test started-at="2022-12-22T23:34:30 IST" name="Test2" finished-at="2022-12-22T23:34:30 IST" duration-ms="14">
+      <class name="TestNG_parallel.class4">
+        <test-method signature="test_method10()[pri:0, instance:TestNG_parallel.class4@3f6f6701]" started-at="2022-12-22T23:34:30 IST" name="test_method10" finished-at="2022-12-22T23:34:30 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_method10 -->
+        <test-method signature="test_method9()[pri:0, instance:TestNG_parallel.class4@3f6f6701]" started-at="2022-12-22T23:34:30 IST" name="test_method9" finished-at="2022-12-22T23:34:30 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_method9 -->
+      </class> <!-- TestNG_parallel.class4 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
 </testng-results>
