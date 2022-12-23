@@ -20,6 +20,5 @@ public class class2
 	public void test_method5()
 	{
 		System.out.println("TestClass2>>testMethod5>>"+Thread.currentThread().getId());	
-	}
-	
+	}	
 }

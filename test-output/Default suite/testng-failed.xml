@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DataProvider_Class.EmpData">
+      <class name="Sudo.InvocationCount_to_print_the_same_test_multiple_times">
         <methods>
-          <include name="testCaseData"/>
+          <include name="m1"/>
         </methods>
-      </class> <!-- DataProvider_Class.EmpData -->
+      </class> <!-- Sudo.InvocationCount_to_print_the_same_test_multiple_times -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
