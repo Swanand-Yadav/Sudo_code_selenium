@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-23T11:26:42 IST" name="Default suite" finished-at="2022-12-23T11:27:02 IST" duration-ms="19959">
+  <suite started-at="2022-12-23T14:47:26 IST" name="Suite" finished-at="2022-12-23T14:47:26 IST" duration-ms="53">
     <groups>
     </groups>
-    <test started-at="2022-12-23T11:26:42 IST" name="Default test" finished-at="2022-12-23T11:27:02 IST" duration-ms="19959">
-      <class name="Sudo.Thread_pool_with_invocation">
-        <test-method signature="m1()[pri:0, instance:Sudo.Thread_pool_with_invocation@3f6b0be5]" started-at="2022-12-23T11:26:42 IST" name="m1" finished-at="2022-12-23T11:26:52 IST" duration-ms="10642" status="PASS">
+    <test started-at="2022-12-23T14:47:26 IST" name="TestRunner" finished-at="2022-12-23T14:47:26 IST" duration-ms="53">
+      <class name="Running_the_multiple_test_case_in_TestNG.TC_001">
+        <test-method signature="t1()[pri:0, instance:Running_the_multiple_test_case_in_TestNG.TC_001@3febb011]" started-at="2022-12-23T14:47:26 IST" name="t1" finished-at="2022-12-23T14:47:26 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m1 -->
-        <test-method signature="m1()[pri:0, instance:Sudo.Thread_pool_with_invocation@3f6b0be5]" started-at="2022-12-23T11:26:42 IST" name="m1" finished-at="2022-12-23T11:26:53 IST" duration-ms="10789" status="PASS">
+        </test-method> <!-- t1 -->
+      </class> <!-- Running_the_multiple_test_case_in_TestNG.TC_001 -->
+    </test> <!-- TestRunner -->
+  </suite> <!-- Suite -->
+  <suite started-at="2022-12-23T14:47:27 IST" name="Suite (0)" finished-at="2022-12-23T14:47:27 IST" duration-ms="1">
+    <groups>
+    </groups>
+    <test started-at="2022-12-23T14:47:27 IST" name="TestRunner" finished-at="2022-12-23T14:47:27 IST" duration-ms="1">
+      <class name="Running_the_multiple_test_case_in_TestNG.TC_002">
+        <test-method signature="t1()[pri:0, instance:Running_the_multiple_test_case_in_TestNG.TC_002@7c7a06ec]" started-at="2022-12-23T14:47:27 IST" name="t1" finished-at="2022-12-23T14:47:27 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m1 -->
-        <test-method signature="m1()[pri:0, instance:Sudo.Thread_pool_with_invocation@3f6b0be5]" started-at="2022-12-23T11:26:52 IST" name="m1" finished-at="2022-12-23T11:27:02 IST" duration-ms="9242" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- m1 -->
-        <test-method signature="m1()[pri:0, instance:Sudo.Thread_pool_with_invocation@3f6b0be5]" started-at="2022-12-23T11:26:53 IST" name="m1" finished-at="2022-12-23T11:27:02 IST" duration-ms="9082" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- m1 -->
-      </class> <!-- Sudo.Thread_pool_with_invocation -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- t1 -->
+      </class> <!-- Running_the_multiple_test_case_in_TestNG.TC_002 -->
+    </test> <!-- TestRunner -->
+  </suite> <!-- Suite (0) -->
 </testng-results>
