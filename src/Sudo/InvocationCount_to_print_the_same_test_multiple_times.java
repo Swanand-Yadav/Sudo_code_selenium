@@ -37,4 +37,7 @@ public class InvocationCount_to_print_the_same_test_multiple_times
  * invocationTimeOut: All iteration should complete within that mentioned timeOut if not then 
  * test will fail
  * 
+ * But we can not put only invocationTimeOut we need invocationCount also should be as parameter
+ * otherwise only invocationTimeOut will be useless but we can take only single invocationCount.
+ * 
 */
