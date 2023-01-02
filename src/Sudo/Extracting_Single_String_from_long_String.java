@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 // Extracting the single single string using the <List> collection  
-public class code4 
+public class Extracting_Single_String_from_long_String 
 {
 
 	public static void main(String[] args) throws InterruptedException 
