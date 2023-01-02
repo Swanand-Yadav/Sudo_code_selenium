@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 
 public class get_CSS_properties_AND_fill_the_textBox_without_sendKeys_method 
 {
-	
 	@Test
 	public void retriveCSSproperties()
 	{
