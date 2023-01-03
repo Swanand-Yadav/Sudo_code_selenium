@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-02T13:46:41 IST" name="Default suite" finished-at="2023-01-02T13:46:58 IST" duration-ms="17213">
+  <suite started-at="2023-01-03T09:30:30 IST" name="Default suite" finished-at="2023-01-03T09:30:41 IST" duration-ms="10956">
     <groups>
     </groups>
-    <test started-at="2023-01-02T13:46:41 IST" name="Default test" finished-at="2023-01-02T13:46:58 IST" duration-ms="17213">
-      <class name="Sudo.get_CSS_properties_AND_fill_the_textBox_without_sendKeys_method">
-        <test-method signature="retriveCSSproperties()[pri:0, instance:Sudo.get_CSS_properties_AND_fill_the_textBox_without_sendKeys_method@611889f4]" started-at="2023-01-02T13:46:41 IST" name="retriveCSSproperties" finished-at="2023-01-02T13:46:50 IST" duration-ms="9028" status="PASS">
+    <test started-at="2023-01-03T09:30:30 IST" name="Default test" finished-at="2023-01-03T09:30:41 IST" duration-ms="10956">
+      <class name="Sudo.pop_up_authontication">
+        <test-method signature="withAuth()[pri:0, instance:Sudo.pop_up_authontication@611889f4]" started-at="2023-01-03T09:30:30 IST" name="withAuth" finished-at="2023-01-03T09:30:37 IST" duration-ms="6978" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- retriveCSSproperties -->
-        <test-method signature="type_in_a_textbox_without_using_sendKeys()[pri:0, instance:Sudo.get_CSS_properties_AND_fill_the_textBox_without_sendKeys_method@611889f4]" started-at="2023-01-02T13:46:50 IST" name="type_in_a_textbox_without_using_sendKeys" finished-at="2023-01-02T13:46:58 IST" duration-ms="8111" status="PASS">
+        </test-method> <!-- withAuth -->
+        <test-method signature="withoutAuth()[pri:0, instance:Sudo.pop_up_authontication@611889f4]" started-at="2023-01-03T09:30:37 IST" name="withoutAuth" finished-at="2023-01-03T09:30:41 IST" duration-ms="3898" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- type_in_a_textbox_without_using_sendKeys -->
-      </class> <!-- Sudo.get_CSS_properties_AND_fill_the_textBox_without_sendKeys_method -->
+        </test-method> <!-- withoutAuth -->
+      </class> <!-- Sudo.pop_up_authontication -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
