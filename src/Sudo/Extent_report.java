@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -18,7 +17,6 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
@@ -32,7 +30,6 @@ public class Extent_report
 	ExtentSparkReporter reporter;
 	ExtentReports extent;
 	ExtentTest test;
-	
 	WebDriver  driver;
 	
 	@BeforeTest //Stage - 1
@@ -49,9 +46,9 @@ public class Extent_report
 		extent.setSystemInfo("Host name", "localhost");
 		extent.setSystemInfo("Environemnt", "QA");
 		extent.setSystemInfo("OS", "Windows 10");
-		extent.setSystemInfo("Tester Name", "Swanand Yadav");
-		
+		extent.setSystemInfo("Tester Name", "Swanand Yadav");	
 	}
+	
 	@BeforeMethod    //Stage - 2
 	public void Setup()
 	{

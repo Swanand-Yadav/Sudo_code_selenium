@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-03T09:30:30 IST" name="Default suite" finished-at="2023-01-03T09:30:41 IST" duration-ms="10956">
+  <suite started-at="2023-01-06T14:15:28 IST" name="Default suite" finished-at="2023-01-06T14:15:59 IST" duration-ms="31100">
     <groups>
     </groups>
-    <test started-at="2023-01-03T09:30:30 IST" name="Default test" finished-at="2023-01-03T09:30:41 IST" duration-ms="10956">
-      <class name="Sudo.pop_up_authontication">
-        <test-method signature="withAuth()[pri:0, instance:Sudo.pop_up_authontication@611889f4]" started-at="2023-01-03T09:30:30 IST" name="withAuth" finished-at="2023-01-03T09:30:37 IST" duration-ms="6978" status="PASS">
+    <test started-at="2023-01-06T14:15:28 IST" name="Default test" finished-at="2023-01-06T14:15:59 IST" duration-ms="31100">
+      <class name="Sudo.Thread_pool_with_invocation">
+        <test-method signature="m1()[pri:0, instance:Sudo.Thread_pool_with_invocation@3f6b0be5]" started-at="2023-01-06T14:15:28 IST" name="m1" finished-at="2023-01-06T14:15:48 IST" duration-ms="20099" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- withAuth -->
-        <test-method signature="withoutAuth()[pri:0, instance:Sudo.pop_up_authontication@611889f4]" started-at="2023-01-03T09:30:37 IST" name="withoutAuth" finished-at="2023-01-03T09:30:41 IST" duration-ms="3898" status="PASS">
+        </test-method> <!-- m1 -->
+        <test-method signature="m1()[pri:0, instance:Sudo.Thread_pool_with_invocation@3f6b0be5]" started-at="2023-01-06T14:15:28 IST" name="m1" finished-at="2023-01-06T14:15:48 IST" duration-ms="20383" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- withoutAuth -->
-      </class> <!-- Sudo.pop_up_authontication -->
+        </test-method> <!-- m1 -->
+        <test-method signature="m1()[pri:0, instance:Sudo.Thread_pool_with_invocation@3f6b0be5]" started-at="2023-01-06T14:15:48 IST" name="m1" finished-at="2023-01-06T14:15:59 IST" duration-ms="10912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method signature="m1()[pri:0, instance:Sudo.Thread_pool_with_invocation@3f6b0be5]" started-at="2023-01-06T14:15:48 IST" name="m1" finished-at="2023-01-06T14:15:59 IST" duration-ms="10600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- Sudo.Thread_pool_with_invocation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
