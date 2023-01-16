@@ -16,7 +16,6 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 public class Listener extends TestListenerAdapter 
 {
-	//TestBase tb=new TestBase();
 	public ExtentSparkReporter spark;
 	public ExtentReports extent;
 	public ExtentTest test;

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Sudo.get_CSS_properties_AND_fill_the_textBox_without_sendKeys_method">
+      <class name="Sudo.Soft_assert">
         <methods>
-          <include name="type_in_a_textbox_without_using_sendKeys"/>
+          <include name="Test1"/>
         </methods>
-      </class> <!-- Sudo.get_CSS_properties_AND_fill_the_textBox_without_sendKeys_method -->
+      </class> <!-- Sudo.Soft_assert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

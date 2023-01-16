@@ -6,8 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
-
+public class LoginPage 
+{
 	WebDriver ldriver;// Local driver
 
 	public LoginPage(WebDriver rdriver)// Remote driver
@@ -25,16 +25,18 @@ public class LoginPage {
 	@FindBy(how = How.XPATH, using ="//input[@name='btnLogin']")
 	WebElement btnClick;
 	
-
-	public void setEmail(String uid) {
+	public void setEmail(String uid) 
+	{
 		UserIDTextBox.sendKeys(uid);
-		}
+	}
 
-	public void setPassword(String strPassword) {
-			passwordTextBox.sendKeys(strPassword);
-		}
+	public void setPassword(String strPassword) 
+	{
+		passwordTextBox.sendKeys(strPassword);
+	}
 	
-	public void Clickbtn() {
+	public void Clickbtn() 
+	{
 		btnClick.click();
 	}
 }
