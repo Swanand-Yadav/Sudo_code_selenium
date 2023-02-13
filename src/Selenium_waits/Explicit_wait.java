@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
+/*
 public class Explicit_wait 
 {
 	public static void main(String[] args) 
@@ -31,10 +31,10 @@ public class Explicit_wait
 		return driver.findElement(locator);
 	}
 }
+*/
 
 
-
-/*  //For single method..............................
+  //For single method..............................
 public class Explicit_wait 
 {
 	public static void main(String[] args) 
@@ -48,7 +48,6 @@ public class Explicit_wait
 		driver.findElement(By.cssSelector("input.gLFyf")).sendKeys("selenium",Keys.ENTER);
 		WebElement element=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h3[text()='Selenium']")));// It will return boolean either element is able to locate or not 
 		element.click();
-		
+		driver.close();
 	}
 }
-*/
