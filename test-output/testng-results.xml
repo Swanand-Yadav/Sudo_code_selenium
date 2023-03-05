@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-13T11:20:59 IST" name="Default suite" finished-at="2023-02-13T11:21:09 IST" duration-ms="10375">
+  <suite started-at="2023-02-18T20:14:04 IST" name="Selenium_sudo_code" finished-at="2023-02-18T20:14:25 IST" duration-ms="21244">
     <groups>
     </groups>
-    <test started-at="2023-02-13T11:20:59 IST" name="Default test" finished-at="2023-02-13T11:21:09 IST" duration-ms="10375">
+    <test started-at="2023-02-18T20:14:04 IST" name="POM practice Test" finished-at="2023-02-18T20:14:25 IST" duration-ms="21244">
       <class name="POM.LoginTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:POM.LoginTest@290222c1]" started-at="2023-02-13T11:20:59 IST" name="initialize" finished-at="2023-02-13T11:21:05 IST" duration-ms="6328" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:POM.LoginTest@47e2e487]" started-at="2023-02-18T20:14:04 IST" name="initialize" finished-at="2023-02-18T20:14:19 IST" duration-ms="14070" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="init()[pri:0, instance:POM.LoginTest@290222c1]" started-at="2023-02-13T11:21:05 IST" name="init" finished-at="2023-02-13T11:21:08 IST" duration-ms="2952" status="PASS">
+        <test-method signature="init()[pri:0, instance:POM.LoginTest@47e2e487]" started-at="2023-02-18T20:14:19 IST" name="init" finished-at="2023-02-18T20:14:23 IST" duration-ms="4717" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="testValidText()[pri:0, instance:POM.LoginTest@290222c1]" started-at="2023-02-13T11:21:08 IST" name="testValidText" finished-at="2023-02-13T11:21:08 IST" duration-ms="77" status="FAIL">
+        <test-method signature="testValidText()[pri:0, instance:POM.LoginTest@47e2e487]" started-at="2023-02-18T20:14:23 IST" name="testValidText" finished-at="2023-02-18T20:14:24 IST" duration-ms="134" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Manger Id : mngr478114----] but found [Manger Id : mngr478114]]]>
@@ -63,15 +63,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidText -->
-        <test-method signature="textTest()[pri:0, instance:POM.LoginTest@290222c1]" started-at="2023-02-13T11:21:08 IST" name="textTest" finished-at="2023-02-13T11:21:08 IST" duration-ms="175" status="PASS">
+        <test-method signature="textTest()[pri:0, instance:POM.LoginTest@47e2e487]" started-at="2023-02-18T20:14:24 IST" name="textTest" finished-at="2023-02-18T20:14:24 IST" duration-ms="80" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- textTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:POM.LoginTest@290222c1]" started-at="2023-02-13T11:21:08 IST" name="tearDown" finished-at="2023-02-13T11:21:09 IST" duration-ms="767" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:POM.LoginTest@47e2e487]" started-at="2023-02-18T20:14:24 IST" name="tearDown" finished-at="2023-02-18T20:14:25 IST" duration-ms="885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- POM.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- POM practice Test -->
+  </suite> <!-- Selenium_sudo_code -->
 </testng-results>
