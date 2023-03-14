@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="POM.LoginTest">
+      <class name="Sudo.CheckBox">
         <methods>
-          <include name="initialize"/>
-          <include name="testValidText"/>
-          <include name="tearDown"/>
+          <include name="isSelected"/>
         </methods>
-      </class> <!-- POM.LoginTest -->
+      </class> <!-- Sudo.CheckBox -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
