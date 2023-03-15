@@ -1,4 +1,4 @@
-package Sudo;
+package ChromeOptions;
 
 import java.time.Duration;
 import java.util.HashMap;

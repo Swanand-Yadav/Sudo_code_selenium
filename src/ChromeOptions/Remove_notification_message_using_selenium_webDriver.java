@@ -1,4 +1,4 @@
-package Sudo;
+package ChromeOptions;
 
 import java.util.Collections;
 import org.openqa.selenium.WebDriver;
