@@ -6,6 +6,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 
@@ -16,7 +18,11 @@ public class Fluent_wait
 	public static void main(String[] args) 
 	{
 		System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
-		WebDriver driver=new ChromeDriver();
+		
+		ChromeOptions co = new ChromeOptions();
+		co.addArguments("--remote-allow-origins=*");
+		
+		WebDriver driver=new ChromeDriver(co);
 		
 		//Declaration of fluent wait...
 		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
@@ -28,13 +34,8 @@ public class Fluent_wait
 		driver.findElement(By.cssSelector("input.gLFyf")).sendKeys("selenium",Keys.ENTER);
 		
 		// Implementation or usage of fluent wait
-		WebElement element=wait.until(new Function<WebDriver, WebElement>() 
-		{
-			public WebElement apply(WebDriver driver) 
-			{
-				return driver.findElement(By.xpath("//h3[text()='Selenium']"));
-			}
-		});
+		WebElement element=wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input.gLFyf"))); 
+		
 		element.click();
 	}
 }
